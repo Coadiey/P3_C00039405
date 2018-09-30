@@ -307,7 +307,7 @@ public class P3_C00039405 {
     public static void main(String[] args) {
 
         printArray();
-        int size = 1000;
+        int size = 100000;
         System.out.println("List size: " + size);
 
         ArrayList<Double> arrayList = new ArrayList<>(size);
@@ -323,7 +323,7 @@ public class P3_C00039405 {
         mergeSort(arrayList);
         System.gc();
 
-        size = 2000;
+        size = 200000;
         System.out.println("List size: " + size);
 
         arrayList = new ArrayList<>(size);
@@ -339,7 +339,7 @@ public class P3_C00039405 {
         mergeSort(arrayList);
         System.gc();
 
-        size = 4000;
+        size = 400000;
         System.out.println("List size: " + size);
 
         arrayList = new ArrayList<>(size);
@@ -355,7 +355,7 @@ public class P3_C00039405 {
         mergeSort(arrayList);
         System.gc();
 
-        size = 8000;
+        size = 800000;
         System.out.println("List size: " + size);
 
         arrayList = new ArrayList<>(size);
